@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+    5616315677,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -114,7 +114,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerhson_id = 5616315677
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -234,7 +234,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5159123009,
+    5616315677,
 ]
 
 def calc(num1, num2, fun):
@@ -394,7 +394,7 @@ async def _(event):
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/I2x_I
+قناة السورس : @dd_n_G
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
