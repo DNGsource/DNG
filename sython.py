@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@lllllllllIIIll"))
     except BaseException:
         pass
 
@@ -84,7 +84,7 @@ async def _(event):
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE TNT : @I2x_I**
+☆ SOURCE TNT : @dd_n_G**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -131,7 +131,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@EEObot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@EEObot', 'جاري التجميع بواسطة | DNG TEAM')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@EEObot', '/start')
         await asyncio.sleep(5)
@@ -176,7 +176,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_usernamee)
-        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | DNG TEAM')
         channel_entity = await sython.get_entity(bot_usernamee)
         await sython.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -223,7 +223,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@SAYTHONH"))
+        await sython(JoinChannelRequest("@lllllllllIIIll"))
     except BaseException:
         pass
  
@@ -400,7 +400,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @F_U_F_F_F"""
+      await event.edit("""SY OWNER : @F_U_F_F_F"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
